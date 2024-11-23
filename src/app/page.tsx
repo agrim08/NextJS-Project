@@ -1,5 +1,9 @@
+import HeroSection from "@/components/HeroSection";
+
 export default function Home() {
   return (
-    <h1 className="text-center text-2xl">Welcome to nextjs learning :)</h1>
+    <main className="bg-black/[0.96] min-h-screen antialiased bg-grid-white/[0.02]">
+      <HeroSection />
+    </main>
   );
 }
